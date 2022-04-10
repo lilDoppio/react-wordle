@@ -2,27 +2,30 @@ const defaultState = {
     firstRow: [],
     secondRow: [],
     thirdRow: [],
+    fourth: [],
+    fifth: [],
+    sixth: [],
 }
 
 export const WordRowsReducer = (state = defaultState, action) => {
     switch (action.type) {
-        case 'FIRST_ROW_ADD_LETTER':
-            return {...state, firstRow: [...state.firstRow, action.payload]}
+        case 'SET_FIRST_ROW_CURRENT':
+            return {...state, firstRow: action.payload}
 
-        case 'FIRST_ROW_REMOVE_LETTER':
-            return {...state, firstRow: state.firstRow.filter((_, i) => i !== action.payload - 1)}
+        case 'SET_SECOND_ROW_CURRENT':
+            return {...state, secondRow: action.payload}
 
-        case 'SECOND_ROW_ADD_LETTER':
-            return {...state, secondRow: [...state.secondRow, action.payload]}
+        case 'SET_THIRD_ROW_CURRENT':
+            return {...state, thirdRow: action.payload}
+            
+        case 'SET_FOURTH_ROW_CURRENT':
+            return {...state, fourth: action.payload}
 
-        case 'SECOND_ROW_ADD_LETTER_ROW_REMOVE_LETTER':
-            return {...state, secondRow: state.secondRow.filter((_, i) => i !== action.payload - 1)}
-    
-        case 'THIRD_ROW_ADD_LETTER':
-            return {...state, thirdRow: [...state.thirdRow, action.payload]}
+        case 'SET_FIFTH_ROW_CURRENT':
+            return {...state, fifth: action.payload}
 
-        case 'THIRD_ROW_REMOVE_LETTER':
-            return {...state, thirdRow: state.thirdRow.filter((_, i) => i !== action.payload - 1)}
+        case 'SET_SIXTH_ROW_CURRENT':
+            return {...state, sixth: action.payload}
 
         default:
             return state
