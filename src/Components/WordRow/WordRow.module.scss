@@ -1,0 +1,11 @@
+.cardRow {
+  @apply m-5 flex justify-center h-24;
+}
+
+.defaultCardBack {
+  @apply mx-2 flex justify-center h-16 w-9 bg-blue-900;
+}
+
+.card {
+  @apply m-5 w-6 text-white;
+}

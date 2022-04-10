@@ -1,0 +1,29 @@
+.keyboard {
+  @apply flex flex-col h-220px m-2;
+
+  .row {
+    @apply flex-1 flex justify-between items-center;
+
+    button {
+      @apply border-inherit rounded-lg bg-slate-300 h-14 w-8 p-2 text-xl;
+    }
+  }
+
+  .lastRow {
+    button:first-child {
+      @apply w-16;
+    }
+
+    button:last-child {
+      @apply w-16;
+    }
+  }
+}
+
+.greenCardBack {
+  @apply mx-2 flex justify-center h-16 w-9 bg-green-500;
+}
+
+.yellowCardBack {
+  @apply mx-2 flex justify-center h-16 w-9 bg-yellow-300;
+}
