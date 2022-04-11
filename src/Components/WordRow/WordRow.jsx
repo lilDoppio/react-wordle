@@ -1,4 +1,5 @@
 import React from 'react'
+
 import styles from '../WordRow/WordRow.module.scss'
 
 export const WordRow = ({row, rowCopy}) => {

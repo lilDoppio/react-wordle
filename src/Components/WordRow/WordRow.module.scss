@@ -3,9 +3,9 @@
 }
 
 .defaultCardBack {
-  @apply mx-2 flex justify-center h-16 w-9 bg-blue-900;
+  @apply mx-2 flex justify-center h-16 w-12 bg-slate-400;
 }
 
 .card {
-  @apply m-5 w-6 text-white;
+  @apply m-5 w-6 text-white text-2xl font-bold;
 }

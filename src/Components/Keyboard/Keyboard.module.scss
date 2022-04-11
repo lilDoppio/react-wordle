@@ -5,7 +5,7 @@
     @apply flex-1 flex justify-between items-center;
 
     button {
-      @apply border-inherit rounded-lg bg-slate-300 h-14 w-8 p-2 text-xl;
+      @apply border-inherit rounded-lg bg-slate-300 h-12 w-8 p-2 text-xl;
     }
   }
 
@@ -21,9 +21,9 @@
 }
 
 .greenCardBack {
-  @apply mx-2 flex justify-center h-16 w-9 bg-green-500;
+  @apply mx-2 flex justify-center h-16 w-12 bg-green-500;
 }
 
 .yellowCardBack {
-  @apply mx-2 flex justify-center h-16 w-9 bg-yellow-300;
+  @apply mx-2 flex justify-center h-16 w-12 bg-yellow-500;
 }
