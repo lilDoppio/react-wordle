@@ -10,6 +10,8 @@ Wordle - браузерная игра, в которой загадываетс
 
 Серый - буква в слове отсутствует
 
+![Иллюстрация к проекту](https://github.com/lilDoppio/pics/blob/main/wordle1.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
