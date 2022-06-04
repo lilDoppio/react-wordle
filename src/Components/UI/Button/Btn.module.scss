@@ -1,0 +1,7 @@
+.btn {
+  @apply font-semibold text-lg;
+
+  &:hover {
+    @apply text-neutral-600;
+  }
+}

@@ -1,23 +1,7 @@
 .App {
   @apply flex flex-col w-488px h-screen;
-}
 
-.statusWindow {
-  @apply flex justify-center inset-x-0 absolute z-10 w-full h-full bg-slate-100/50;
-
-  .statusInfo {
-    @apply h-full w-488px bg-white shadow-2xl flex justify-center items-center;
-
-    .statusText {
-      @apply max-w-md;
-
-      h1 {
-        @apply text-7xl text-center mb-5 pb-4 border-b-2;
-      }
-
-      p {
-        @apply text-3xl text-center;
-      }
-    }
+  @media (max-width: 488px) {
+    @apply w-screen;
   }
 }

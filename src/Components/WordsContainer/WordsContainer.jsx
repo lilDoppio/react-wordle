@@ -11,7 +11,7 @@ export const WordsContainer = () => {
   return (
     <main className={styles.container}>
       {Object.values(wordRows).map((row, i) =>
-        <WordRow row={row} rowCopy={Object.values(wordRowsCopy)[i]}/>
+        <WordRow key={i} row={row} rowCopy={Object.values(wordRowsCopy)[i]}/>
       )}
     </main>
   )

@@ -1,0 +1,33 @@
+.statusWindow {
+  @apply flex justify-center inset-x-0 absolute z-10 w-screen h-screen bg-slate-100/50;
+
+  .statusInfo {
+    @apply h-full w-488px bg-white bg-opacity-80 shadow-2xl flex justify-center items-center;
+
+    .statusText {
+      @apply max-w-md;
+
+      h1 {
+        @apply text-7xl text-center mb-5 pb-4 border-b-2;
+      }
+
+      p {
+        @apply text-3xl text-center;
+      }
+
+      @media (max-width: 488px) {
+        h1 {
+          @apply text-4xl text-center mb-5 pb-4 border-b-2;
+        }
+
+        p {
+          @apply text-2xl text-center;
+        }
+      }
+    }
+  }
+}
+
+.hidden {
+  @apply pointer-events-none invisible;
+}

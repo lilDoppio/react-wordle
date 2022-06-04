@@ -8,7 +8,13 @@ module.exports = {
         '488px': '488px',
       },
       height: {
-        '220px': '220px'
+        '220px': '220px',
+        '140px': '140px',
+      },
+      maxHeight: {
+        '220px': '220px',
+        '180px': '180px',
+        '140px': '140px',
       }
     },
   },
