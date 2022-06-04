@@ -1,3 +1,17 @@
+# Об игре Wordle
+
+Wordle - браузерная игра, в которой загадывается слово из 5 букв, которое игрок должен отгадать за 6 попыток.
+
+После каждой попытки отгадать загаданное слово буквы слова-попытки помечаются одним из трёх цветов:
+
+Зелёный - правильная буква на правильном месте в слове
+
+Жёлтый - буква есть в слове, но на другой позиции
+
+Серый - буква в слове отсутствует
+
+![Иллюстрация к проекту](https://github.com/lilDoppio/pics/blob/main/wordle1.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
